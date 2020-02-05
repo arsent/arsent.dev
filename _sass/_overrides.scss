@@ -1,0 +1,12 @@
+main {
+  .about {
+    justify-content: start;
+    margin-top: 50px;
+
+    img {
+      object-fit: cover;
+      border-radius: 50%;
+      max-width: 180px;
+    }
+  }
+}

@@ -21,17 +21,19 @@ plainwhite:
   name: Arsen T
   tagline: Android Developer
   date_format: "%b %-d, %Y"
-  show_excerpts: true
+  site:
+    show_excerpts: true
   social_links:
     github: arsent
     linkedIn: in/arsentumanyan
+    stackoverflow: 1162784
 
   navigation:
     - title: CV
       url: "/cv"
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: plainwhite
 plugins:
   - jekyll-feed
 remote_theme: thelehhman/plainwhite-jekyll
