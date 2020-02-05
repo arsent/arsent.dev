@@ -21,8 +21,6 @@ plainwhite:
   name: Arsen T
   tagline: Android Developer
   date_format: "%b %-d, %Y"
-  site:
-    show_excerpts: true
   social_links:
     github: arsent
     linkedIn: in/arsentumanyan
@@ -31,7 +29,7 @@ plainwhite:
   navigation:
     - title: CV
       url: "/cv"
-
+show_excerpts: true
 # Build settings
 theme: plainwhite
 plugins:

@@ -3,6 +3,7 @@ layout: post
 title:  "Mini Notes"
 date:   2020-02-01 14:13:56 -0500
 categories: android
+excerpt_separator: <!--more-->
 ---
 ## NOTE 1 - Fragment's view vs instance lifecycles
 
@@ -14,6 +15,7 @@ When the user navigates away from a fragment but the fragment is still in backst
 
 - RV adapter keeps references to ViewHolder instances and those keep references to the inflated views. When we have a reference to the adapter all ViewHolder instances and View instances remain in memory when the user navigates away from the fragment. This gives a benefit of not having to inflate views again when the user comes back but that comes with a cost of keeping them in memory. So, just be aware of this and use it to your advantage.
 
+<!--more-->
 
 ## NOTE 2 - Minimize `requestLayout()` calls on RecyclerView
 
