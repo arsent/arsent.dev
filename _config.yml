@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 plainwhite:
-  name: Arsen T
+  name: Arsén Tumanyan
   tagline: Android Developer
   date_format: "%b %-d, %Y"
   social_links:
@@ -27,11 +27,11 @@ plainwhite:
     stackoverflow: 1162784
 
   navigation:
-    - title: CV
-      url: "/cv"
+    - title: Resume
+      url: "/resume"
 show_excerpts: true
 # Build settings
-theme: jekyll-theme-minimal
+theme: plainwhite
 plugins:
   - jekyll-feed
 remote_theme: thelehhman/plainwhite-jekyll
