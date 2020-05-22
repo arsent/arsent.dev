@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notebook"
+title:  "Random Tips / Notes"
 date:   2020-02-01 14:13:56 -0500
 categories: android
 excerpt_separator: <!--more-->

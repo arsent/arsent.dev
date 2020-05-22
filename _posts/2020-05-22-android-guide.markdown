@@ -20,7 +20,7 @@ excerpt_separator: <!--more-->
 * 3.2. Libraries
 * 3.3. [Concurrency](https://github.com/arsent/lab/wiki/Android:-Concurrency)
 * 3.4. Networking, Persistence, Notifications etc.
-* 3.4. [Tips](https://github.com/arsent/lab/wiki/Android:-Tips)
+* 3.4. [Random Tips & Notes]({% post_url 2020-01-31-android-notes %})
 
 ### 4. Maintaining Apps
 * 4.1. [Automation](https://github.com/arsent/lab/wiki/Article:-Automation)
