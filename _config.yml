@@ -23,12 +23,12 @@ plainwhite:
   date_format: "%b %-d, %Y"
   social_links:
     github: arsent
-    linkedIn: in/arsentumanyan
+#    linkedIn: in/arsentumanyan
     stackoverflow: 1162784
 
   navigation:
-    - title: Resume
-      url: "/resume"
+    - title: Notes about Android
+      url: "/android"
 show_excerpts: true
 # Build settings
 theme: plainwhite

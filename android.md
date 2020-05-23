@@ -1,10 +1,9 @@
 ---
-layout: post
-title:  "Notes about Android"
-date:   2020-05-22 14:13:56 -0500
-categories:
-excerpt_separator: <!--more-->
+layout: page
+title: "Notes about Android"
+order: 2
 ---
+
 ### 1. History
 * 1.1. [Notes](https://github.com/arsent/lab/wiki/Android:-History)
 

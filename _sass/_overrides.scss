@@ -1,6 +1,57 @@
 * {
-  font-family: Muli,Helvetica Neue,Helvetica,sans-serif !important;
+  font-family: Muli, Helvetica Neue, Helvetica, sans-serif !important;
 }
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.github.icon {
+  background: white;
+  color: black;
+  fill: black;
+
+  &:hover {
+    background: black;
+    color: white;
+    fill: white;
+  }
+}
+
+.linkedin.icon {
+  color: white;
+  fill: white;
+  background: #007BB6;
+}
+
+.stackoverflow.icon {
+  color: #fe7a15; // IE8
+  fill: #fe7a15;
+  background: rgb(240, 241, 241);
+  &:hover {
+    border: 1px black solid;
+  }
+}
+
+.icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background: black;
+  border-radius: 100%;
+  border: 1px transparent solid;
+  color: white; // IE8
+  fill: white;
+  &:hover {
+    background: white;
+    color: black; // IE8
+    fill: black;
+    border: 1px transparent solid;
+  }
+}
+
 main {
   .about {
     justify-content: start;
